@@ -9,18 +9,18 @@ defaults =
   indentType: 'space'
   indentWidth: 2
   linefeed: 'lf'
-  omitSourceMapUrl: false
-  outputStyle: 'nested'
+  #omitSourceMapUrl: false
+  outputStyle: 'compressed'
   precision: 5
   sourceComments: false
-  sourceMap: undefined
-  sourceMapContents: false
-  sourceMapEmbed: false
-  sourceMapRoot: undefined
+  #sourceMap: undefined
+  #sourceMapContents: false
+  #sourceMapEmbed: false
+  #sourceMapRoot: undefined
 
 # Require dependencies
 fs       = require 'fs'
-nodeSass = require 'node-sass'
+nodeSass = require 'sass'
 
 # The extend in Wintersmith env.utils only accepts two arguments at a time so...
 extend = (base = {}, objects...) ->

@@ -14,7 +14,7 @@
   ],
   "dependencies": {
     "coffee-script": "^1.10",
-    "node-sass": "3.x"
+    "sass": "^1.1.1"
   },
   "devDependencies": {
     "async": "2.x",
